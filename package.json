@@ -9,6 +9,7 @@
     "start": "npm run dev"
   },
   "dependencies": {
+    "antd": "^5.8.4",
     "umi": "^4.0.42"
   },
   "devDependencies": {
@@ -16,13 +17,13 @@
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "@umijs/plugin-electron": "^0.2.0",
+    "@umijs/plugins": "^4.0.78",
     "electron": "23.1.1",
-    "typescript": "^4.1.2",
     "prettier": "^2.8.8",
     "prettier-plugin-organize-imports": "^3.2.2",
     "prettier-plugin-packagejson": "^2.4.3",
-    "@umijs/plugins": "^4.0.76",
-    "tailwindcss": "^3"
+    "tailwindcss": "^3",
+    "typescript": "^4.1.2"
   },
   "publishConfig": {
     "access": "public",

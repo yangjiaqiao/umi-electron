@@ -1,19 +1,14 @@
-import yayJpg from '../assets/yay.jpg';
+import { Button } from 'antd';
 
 export default function HomePage() {
   return (
     <div>
+      <Button type="primary">最小化</Button>
       <h2 className="text-red-500">Yay! Welcome to umi with electron!</h2>
-      <p>
-        <img src={yayJpg} width="388" />
-      </p>
-      <p>
-        To get started, edit <code>pages/index.tsx</code> and save to reload.
-      </p>
       <button
+        className="h-20 w-200 text-white mr-5"
         onClick={async () => {
           window.alert(await window.$api.getPlatform());
-          window.alert('edit src/main/ipc/platform.ts and try me again!');
         }}
       >
         what is my platform?
