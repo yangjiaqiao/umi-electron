@@ -1,9 +1,19 @@
 {
   "name": "@umijs/electron-template",
   "version": "1.0.2",
+  "files": [
+    "src/**/*",
+    "tsconfig.json",
+    ".npmrc",
+    ".gitignore",
+    "README.md",
+    ".umirc.ts",
+    "package.json",
+    "typings.d.ts"
+  ],
   "scripts": {
-    "dev": "umi dev",
     "build": "umi build",
+    "dev": "umi dev",
     "postinstall": "umi setup",
     "setup": "umi setup",
     "start": "npm run dev"
@@ -28,15 +38,5 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
-  },
-  "files": [
-    "src/**/*",
-    "tsconfig.json",
-    ".npmrc",
-    ".gitignore",
-    "README.md",
-    ".umirc.ts",
-    "package.json",
-    "typings.d.ts"
-  ]
+  }
 }
